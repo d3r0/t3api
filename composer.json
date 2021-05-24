@@ -1,5 +1,5 @@
 {
-    "name": "sourcebroker/t3api",
+    "name": "d3r0/components-api",
     "license": [
         "GPL-2.0+"
     ],
@@ -7,7 +7,7 @@
     "description": "REST API for your TYPO3 project. Config with annotations, build in filtering, pagination, typolinks, image processing, serialization contexts, responses in Hydra/JSON-LD format.",
     "authors": [
         {
-            "name": "SourceBroker Team",
+            "name": "Marcel Arndt",
             "role": "Developer"
         }
     ],
@@ -45,7 +45,7 @@
         }
     },
     "replace": {
-        "typo3-ter/t3api": "self.version"
+        "typo3-ter/components_api": "self.version"
     },
     "config": {
         "vendor-dir": ".Build/vendor",
@@ -71,7 +71,7 @@
     },
     "extra": {
         "typo3/cms": {
-            "extension-key": "t3api",
+            "extension-key": "components_api",
             "cms-package-dir": "{$vendor-dir}/typo3/cms",
             "web-dir": ".Build/public"
         }
